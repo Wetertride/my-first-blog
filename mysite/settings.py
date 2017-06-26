@@ -25,7 +25,9 @@ SECRET_KEY = '!b5_9q151u=a64+g9+)#7&q8g7ovg^37_zj+!tqglyr(mj%v!8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['wetertride.pythonanywhere.com']
+ALLOWED_HOSTS = ['wetertride.pythonanywhere.com',
+                '127.0.0.1' 
+                ]
 
 
 # Application definition
